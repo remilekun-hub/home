@@ -42,7 +42,7 @@ function Property({
       <Layout>
         <Swiper slidesPerView={1} navigation={true} modules={[Navigation]}>
           {photos?.map((photo) => (
-            <SwiperSlide>
+            <SwiperSlide key={photo.url}>
               <img
                 src={photo.url}
                 alt=""
