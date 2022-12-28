@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React, { useState } from "react";
-import { fetchApi, baseUrl } from "../../homes/Service/fetchApi";
+import { fetchApi, baseUrl } from "../service/fetchApi";
 import Layout from "../src/components/Layout";
 import SearchFilters from "../src/components/SearchFilters";
 import { useRouter } from "next/router";
